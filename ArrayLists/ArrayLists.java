@@ -17,6 +17,9 @@ public final class ArrayLists {
         // Expected output: [this, is, how, we, do, it]
 
         System.out.println(phrase);
+
+        //easy critique: so much repetition, not DRY, can't we group these together somehow?
+        // Yes, it is! go to the next module that covers loops! 
     }
 
 }
