@@ -52,10 +52,8 @@ public class CafeUtil {
         double newPrice = price * i;
         // System.out.printf("%s - $%.2f \n", i,  newPrice);
         System.out.println(i + "  " + output );
+        }
     }
-
-    }
-
 
 //SENPAI BONUS
     public void printPriceChart(String product, double price, int maxQuantity) {
@@ -73,6 +71,6 @@ public class CafeUtil {
             discountedTotal = total;
         }
         System.out.printf("%s - $%.2f \n", i,  discountedTotal);
-    }
-} 
-    }
+        }
+    } 
+}
