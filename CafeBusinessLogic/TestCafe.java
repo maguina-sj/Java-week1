@@ -28,14 +28,18 @@ public class TestCafe {
         menu.add("mocha");
         appTest.displayMenu(menu);
     
-        System.out.println("\n----- Add Customer Test-----");
-        ArrayList<String> customers = new ArrayList<String>();
-        // --- Test 4 times ---
-        for (int i = 0; i < 4; i++) {
-            appTest.addCustomer(customers);
-            System.out.println("\n");
-        }
-
-        appTest.printPriceChart("Coffee", 3.0, 4);
+        // System.out.println("\n----- Add Customer Test-----");
+        // ArrayList<String> customers = new ArrayList<String>();
+        // // --- Test 4 times ---
+        // for (int i = 0; i < 4; i++) {
+        //     appTest.addCustomer(customers);
+        //     System.out.println("\n");
+        // }
+//NINJA BONUS 
+        // appTest.printPriceChart("Coffee", 3.0, 4);
+//SENSEI BONUS
+        // appTest.printPriceChart("Coffee","$###,###.###", 23434.23, 4);
+// SENPAI BONUS 
+        appTest.printPriceChart("Latte", 2.0, 4);
     }
 }
