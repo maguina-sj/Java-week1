@@ -12,6 +12,7 @@ public class AlfredQuotes {
         return "Hello " + name + " Lovely to see you";
     }
 
+//NINJA BONUS - overloading
     public String guestGreeting(String name, String dayPeriod ){
         return String.format("Good %s, %s. Lovely to see you", dayPeriod, name) ;
     }
